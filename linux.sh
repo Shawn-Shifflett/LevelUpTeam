@@ -3,6 +3,7 @@
 echo "Please enter your name:"
 read name
 echo "Reading.... please wait"
+echo "Welcome, $name nice to have you!"
 sleep 3 
 echo "-----------------------------"
 echo "Your username is:" && whoami 
@@ -17,6 +18,7 @@ sleep 2
 echo "My IP address is:"
 echo "-----------------------------"
 sleep 2
-curl ifconfig.me
 
-This is week 4 - project test
+curl ifconfig.me
+sleep 2
+echo "This is week 4 GitHub project"
